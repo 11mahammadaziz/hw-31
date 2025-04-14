@@ -1,0 +1,27 @@
+footer {
+  padding: 100px 50px 100px 50px;
+  display: flex;
+  justify-content: space-between;
+  .footer-block {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    &:first-child, &:last-child{
+         width: 30%;
+    }
+    &:nth-child(2), &:nth-child(3){
+        width: 25%;
+    }
+    h2 {
+      font-size: 40px;
+      font-weight: 700;
+      color: #ffffff;
+    }
+    a {
+      font-weight: 400;
+      font-size: 17px;
+      color: #FFFFFF;
+      text-decoration: none;
+    }
+  }
+}
